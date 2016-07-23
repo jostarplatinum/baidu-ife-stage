@@ -1,0 +1,59 @@
+.header{
+	height:56px;
+	width:100%;
+	background:#2189bf;
+}
+
+.logo{
+	height:40px;
+	width:40px;
+	background:#fff;
+	display:inline-block;
+	margin:8px;
+	position:relative;
+	left:6%;
+}
+
+.logo1{
+	height:16px;
+	width:16px;
+	background:#fff;
+	border-left:4px solid #2189bf;
+	border-top:4px solid #2189bf;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+.search-bar{
+	float:right;
+	padding-top: 14px;
+}
+
+.search-bar input{
+	width:273px;
+	height:28px;
+	border-radius:14px;
+	outline: none;
+	padding-left: 40px;
+	background:#fff;
+}
+
+.search-icon {
+	font-size: 19px;
+	vertical-align: middle;
+	position:relative;
+	left:7%;
+}
+
+.login{
+	font-size:15px;
+	color:#fff;
+	vertical-align: middle;
+	margin-right:20%;
+}
+
+.login i{
+	font-size:19px;
+	margin:5px;
+}
