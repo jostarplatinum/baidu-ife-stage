@@ -1,0 +1,44 @@
+* {
+    font-family: '微软雅黑';
+}
+    
+section {
+	/*border: 2px solid yellow;*/
+	text-align: center;
+	padding: 10px;
+    margin: 5px;
+    position: relative;
+	height: 3em;
+}
+    
+section strong {
+	position: absolute;
+    right: 60%;
+    top: 5px;
+}
+    
+section input {
+    position: absolute;
+    left: 43%;
+    top: 5px;
+    width: 250px;
+	height:25px;
+}
+    
+section span {
+    position: absolute;
+    left: 43%;
+    bottom: 5px;
+    font-size: 12px;
+    color: gray;
+    visibility: hidden;
+}
+    
+input[type='button'] {
+    background-color: rgb(47, 121, 186);
+    border: none;
+    border-radius: 10px;
+	width:80px;
+    color: white;
+    outline: none;
+}
