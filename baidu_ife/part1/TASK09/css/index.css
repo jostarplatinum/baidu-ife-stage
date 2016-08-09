@@ -60,7 +60,7 @@
 	margin:5px;
 }
 
-.info{
+aside{
 	float:left;
 	width:260px;
 	background:#2a2e3d;
@@ -123,6 +123,28 @@
 	border-right:2px solid #313545;
 }
 
+.info_list a{color:#6e8096;font-size: 12px;}
+.info_list i{float:left;width:12px;height:12px;margin-right: 4px;position:relative;top:4px;}
+.info_list>li>a>i{margin-right:13px;}
+.info_list ul{padding-left:25px;}
+.info_list ul ul{padding-left:33px;}
+.info_list li{min-height:20px;padding:6px 0;}
+.info_list>li{padding-left:45px;min-height: 36px;line-height: 36px;}
+.info_list>li:hover{background: #383d4e;}
+.info_list li a{display: inline-block;height:20px;line-height: 20px;}
+.info_list li.cur{background: #383d4e;line-height: 20px;}
+.info_list li.cur>a,.info_list li.open>a,.info_list li.select>a{color:#ededf0;}
+i.file_open{background: url(../image/file_open.png) no-repeat center;}
+i.arrow{background:url(../image/close_arrow.png) no-repeat center;margin-right: 7px;}
+i.arrow_cur{background:url(../image/open_arrow.png) no-repeat center;margin-right: 7px;}
+i.file_close{background: url(../image/file_close.png) no-repeat center; }
+i.file_cur{background: url(../image/file_cur.png) no-repeat center;}
+i.doc_open{background: url(../image/doc_open.png) no-repeat center;}
+i.doc_close{background: url(../image/doc_close.png) no-repeat center;}
+i.star{background: url(../image/star.png) no-repeat center;}
+i.share{background: url(../image/share.png) no-repeat center;}
+i.user_info{background: url(../image/user_info.png) no-repeat center;}
+
 .main{
 	margin-left:260px;
 }
@@ -176,7 +198,7 @@
 .ml15{margin-left: 10px;}
 .fl{float:left;}
 
-.price_info{margin-bottom: 15px;}
+.price_info{margin-bottom: 15px;overflow:auto;}
 .price{float:left;}
 .price_list{margin-right: 4px;float:left;overflow: hidden;width:684px;position: relative;height:65px;}
 .price_list ul{width:9999px;position:absolute;top:0;left:0;}
@@ -199,7 +221,7 @@ transform:rotateZ(45deg);}
 .history{float:left;}
 .history a{width:76px;height:65px;background:#fff url(../image/history.png) no-repeat 18px 17px;line-height: 65px;padding-left:60px;display: block;color:#535353;}
 
-.volume_info{margin-bottom: 13px;}
+.volume_info{margin-bottom: 13px;overflow:auto;}
 .volume_info h3{line-height:24px;color: #323333;}
 .volume_list li{float:left;height:57px;background:#fff;border:1px solid #d8d9db;width:188px;margin-right: 29px;border-left: 4px solid;position:relative;padding: 12px 0 0 8px;line-height: 24px;color:#323333;}
 .volume_list li span{color:#aaa;}
